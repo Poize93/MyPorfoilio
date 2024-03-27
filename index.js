@@ -121,6 +121,8 @@ app.post("/addEmployee", async (req, res) => {
   res.json({ message: "Employee Added Successfully", Status: 200 });
 });
 
+app.get("/", async (req, res) => res.json({ name: "rahul", connected: "yes" }));
+
 app.get("/allEmployee", async (req, res) => {
   try {
     const response = await employeeModal.find();
