@@ -1,3 +1,9 @@
+<!-- For Docker -->
+
+docker run -d -p 3001:80 my-node-app
+
+<!-- Install -->
+
 npm i express
 npm i cors
 npm i nodemon

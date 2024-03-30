@@ -122,6 +122,7 @@ app.post("/addEmployee", async (req, res) => {
 });
 
 app.get("/", async (req, res) => res.json({ name: "rahul", connected: "yes" }));
+app.get("/ew", async (req, res) => res.json({ name: "ew", connected: "we" }));
 
 app.get("/allEmployee", async (req, res) => {
   try {
